@@ -2,8 +2,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class TeacherHelper {
-
-	public static double horaAula=17.50;
+	
+	
+    //constante: valor que não muda ao longo do programa (valor fixo)
+	
+	public static final double horaAula=17.50;
 	
 	public static void main(String[] args) {
 		int opcao=0, numeroAulas, qtdeAlunos, i;
